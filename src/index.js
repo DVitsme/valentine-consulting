@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './lib/bootstrap.css';
+
+import './static/styles/style.css';
+import './static/styles/media-agency.css';
+import './static/styles/dark.css';
+import './static/styles/fonts.css';
+import './static/styles/font-icons.css';
+import './static/styles/colors.css';
+import './static/styles/media-agency.css';
+
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

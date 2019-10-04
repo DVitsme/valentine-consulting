@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import SideCover from './components/SideCover.component.jsx';
+import Header from './components/Header/Header.component.jsx';
+import HeroText from './components/Hero/HeroText.component.jsx';
+import Services from './components/Services/Services.component.jsx';
+import Portfolio from './components/Portfolio/PortfolioContainer.component.jsx';
+import Form from './components/Form/Form.component';
+import Footer from './components/Footer/Footer.component';
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <SideCover />
+        <div id="wrapper">
+          <Header />
+          <HeroText />
+          <Services />
+          <Portfolio />
+          <Form />
+          <Footer />
+        </div>
+      </div>
+    );
+  }
 }
-
-export default App;
