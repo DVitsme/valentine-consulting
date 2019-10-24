@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <section className="container-fluid page-section clearfix">
       <div id="section-services" className="page-section">
-        <h2 className="bottommargin">Services.</h2>
+        <h2 className="bottommargin">Services</h2>
 
         <div className="row clearfix">
           <div className="col-lg-6 bottommargin">

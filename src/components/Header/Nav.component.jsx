@@ -1,27 +1,52 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Nav = () => {
   return (
     <nav id="primary-menu" className="style-2">
       <ul>
         <li>
+          <Link to="About" spy={true} smooth={true} offset={-70} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
           <a href="/">
-            <div>About</div>
+            <Link
+              to="Services"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Services
+            </Link>
           </a>
         </li>
         <li>
           <a href="/">
-            <div>Services</div>
+            <Link
+              to="Portfolio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Portfolio
+            </Link>
           </a>
         </li>
         <li>
           <a href="/">
-            <div>Portfolio</div>
-          </a>
-        </li>
-        <li>
-          <a href="/">
-            <div>Contact</div>
+            <Link
+              to="Contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact
+            </Link>
           </a>
         </li>
       </ul>

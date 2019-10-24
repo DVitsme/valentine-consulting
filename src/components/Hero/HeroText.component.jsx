@@ -8,10 +8,10 @@ const HeroText = () => {
     >
       <div className="hero-headline bottommargin">
         <h1>
-          Welcome To,
-          <br /> Valentine Consulting,
+          Welcome to
+          <br /> Valentine Consulting
           <br />
-          Consulting For The Community
+          Consulting for the <span style={{ color: 'black' }}>Community</span>
         </h1>
         <span>
           Valentine Consulting is a group of freelance social scientists who
@@ -25,7 +25,7 @@ const HeroText = () => {
       </div>
 
       <a href="/" className="button button-dark button-black nomargin">
-        Get Custom Quote
+        Contact Us
       </a>
 
       <div className="line topmargin-lg bottommargin-lg"></div>

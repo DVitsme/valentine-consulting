@@ -1,6 +1,6 @@
 import React from 'react';
 
-import firstImage from '../static/images/1.jpg';
+import firstImage from '../static/images/DCFestival.jpg';
 
 const SideCover = () => {
   return (
@@ -18,7 +18,7 @@ const SideCover = () => {
         <div
           className="full-screen force-full-screen"
           style={{
-            background: `url(${firstImage}) center right`,
+            background: `linear-gradient(to bottom right, rgba(243,144,79,.4), rgba(59,67,113,.4)), url(${firstImage}) center`,
             backgroundSize: 'cover',
             height: '100%'
           }}
