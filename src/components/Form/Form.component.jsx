@@ -3,7 +3,11 @@ import React, { Component } from 'react';
 export default class Form extends Component {
   render() {
     return (
-      <section className="container-fluid page-section clearfix" ref="contact">
+      <section
+        className="container-fluid page-section clearfix"
+        ref="contact"
+        style={{ marginBottom: '3rem' }}
+      >
         <div id="section-contact" className="page-section">
           <h2 className="bottommargin">Get in Touch</h2>
 
@@ -20,26 +24,27 @@ export default class Form extends Component {
                   method="post"
                 >
                   <div className="form-process"></div>
-
-                  <div className="col_half">
-                    <input
-                      type="text"
-                      id="template-contactform-name"
-                      name="template-contactform-name"
-                      value=""
-                      className="sm-form-control border-form-control required"
-                      placeholder="Name"
-                    />
-                  </div>
-                  <div className="col_half col_last">
-                    <input
-                      type="email"
-                      id="template-contactform-email"
-                      name="template-contactform-email"
-                      value=""
-                      className="required email sm-form-control border-form-control"
-                      placeholder="Email Address"
-                    />
+                  <div className="form-row">
+                    <div className=" form-group col-md-6">
+                      <input
+                        type="text"
+                        id="template-contactform-name"
+                        name="template-contactform-name"
+                        value=""
+                        className="sm-form-control border-form-control required"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div className=" col_last form-group col-md-6">
+                      <input
+                        type="email"
+                        id="template-contactform-email"
+                        name="template-contactform-email"
+                        value=""
+                        className="required email sm-form-control border-form-control"
+                        placeholder="Email Address"
+                      />
+                    </div>
                   </div>
 
                   <div className="clear"></div>

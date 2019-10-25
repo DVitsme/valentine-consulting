@@ -2,10 +2,7 @@ import React from 'react';
 
 const HeroText = () => {
   return (
-    <section
-      className="container-fluid page-section clearfix"
-      style={{ paddingTop: '80px' }}
-    >
+    <section className="container-fluid hero-section clearfix">
       <div className="hero-headline bottommargin">
         <h1>
           Welcome to
@@ -23,10 +20,6 @@ const HeroText = () => {
           strategic decisions for their organization and associated programs.
         </span>
       </div>
-
-      <a href="/" className="button button-dark button-black nomargin">
-        Contact Us
-      </a>
 
       <div className="line topmargin-lg bottommargin-lg"></div>
     </section>

@@ -12,13 +12,11 @@ const Apart = () => {
         <div className="col-md-4 mt-5">
           <div className="feature-box fbox-center noborder">
             <div className="fbox-icon">
-              <a href="#">
-                <img
-                  src={Evidence}
-                  alt="Edvidence based Icon"
-                  className="nobg noradius"
-                />
-              </a>
+              <img
+                src={Evidence}
+                alt="Edvidence based Icon"
+                className="nobg noradius"
+              />
             </div>
             <h3 className="nott ls0">
               A strong and evidence based point of view
@@ -33,13 +31,11 @@ const Apart = () => {
         <div className="col-md-4 mt-5">
           <div className="feature-box fbox-center noborder">
             <div className="fbox-icon">
-              <a href="#">
-                <img
-                  src={Creative}
-                  alt="Creative Icon"
-                  className="nobg noradius"
-                />
-              </a>
+              <img
+                src={Creative}
+                alt="Creative Icon"
+                className="nobg noradius"
+              />
             </div>
             <h3 className="nott ls0">A creative approach</h3>
             <p>
@@ -53,13 +49,11 @@ const Apart = () => {
         <div className="col-md-4 mt-5">
           <div className="feature-box fbox-center noborder">
             <div className="fbox-icon">
-              <a href="#">
-                <img
-                  src={Reliablility}
-                  alt="Reliablility Icon"
-                  className="nobg noradius"
-                />
-              </a>
+              <img
+                src={Reliablility}
+                alt="Reliablility Icon"
+                className="nobg noradius"
+              />
             </div>
             <h3 className="nott ls0">Approachability and reliability</h3>
             <p>

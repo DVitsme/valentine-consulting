@@ -8,7 +8,6 @@ import './static/styles/dark.css';
 import './static/styles/fonts.css';
 import './static/styles/font-icons.css';
 import './static/styles/colors.css';
-import './static/styles/media-agency.css';
 
 import App from './App';
 

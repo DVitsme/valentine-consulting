@@ -11,7 +11,6 @@ import Apart from './components/SetsUsApart/Apart.component.jsx';
 
 export default class App extends Component {
   render() {
-    let contact = React.createRef();
     return (
       <div>
         <SideCover />
