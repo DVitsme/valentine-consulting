@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PostContact from './PostContact.component';
 
 export default class Form extends Component {
   render() {
@@ -16,91 +17,7 @@ export default class Form extends Component {
               <div className="form-widget">
                 <div className="form-result"></div>
 
-                <form
-                  className="nobottommargin"
-                  id="template-contactform"
-                  name="template-contactform"
-                  action="include/form.php"
-                  method="post"
-                >
-                  <div className="form-process"></div>
-                  <div className="form-row">
-                    <div className=" form-group col-md-6">
-                      <input
-                        type="text"
-                        id="template-contactform-name"
-                        name="template-contactform-name"
-                        value=""
-                        className="sm-form-control border-form-control required"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div className=" col_last form-group col-md-6">
-                      <input
-                        type="email"
-                        id="template-contactform-email"
-                        name="template-contactform-email"
-                        value=""
-                        className="required email sm-form-control border-form-control"
-                        placeholder="Email Address"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="clear"></div>
-
-                  <div className="col_full">
-                    <input
-                      type="text"
-                      id="template-contactform-subject"
-                      name="subject"
-                      value=""
-                      className="required sm-form-control border-form-control"
-                      placeholder="Subject"
-                    />
-                  </div>
-
-                  <div className="col_full">
-                    <textarea
-                      className="required sm-form-control border-form-control"
-                      id="template-contactform-message"
-                      name="template-contactform-message"
-                      rows="7"
-                      cols="30"
-                      placeholder="Your Message"
-                    ></textarea>
-                  </div>
-
-                  <div className="col_full">
-                    <button
-                      className="button button-black noleftmargin topmargin-sm"
-                      type="submit"
-                      id="template-contactform-submit"
-                      name="template-contactform-submit"
-                      value="submit"
-                    >
-                      Send Message
-                    </button>
-                  </div>
-
-                  <div className="clear"></div>
-
-                  <div className="col_full hidden">
-                    <input
-                      type="text"
-                      id="template-contactform-botcheck"
-                      name="template-contactform-botcheck"
-                      value=""
-                      className="sm-form-control"
-                    />
-                  </div>
-
-                  <input
-                    type="hidden"
-                    name="prefix"
-                    value="template-contactform-"
-                  />
-                </form>
+                <PostContact />
               </div>
             </div>
 
